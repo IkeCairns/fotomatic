@@ -359,13 +359,14 @@ header .mobile {
 
 #filters-section {
   padding: 64px 0;
+  width: auto;
   background-color: #4a4a4a;
   border: 3px solid red;
 }
 
-#filters-section .content {
+/* #filters-section .content {
   margin-bottom: 80px;
-}
+} */
 
 #filters-section .content h2 {
   font-family: 'Roboto-Bold';
@@ -385,13 +386,14 @@ header .mobile {
 
 #filters-section .images-container {
   margin: 0 1%;
-  width: 100%;
+  width: auto;
   display: flex;
   flex-direction: row;
 }
 
 #filters-section .images-container img {
-  object-fit: contain;
+  min-width: 0;
+  object-fit: scale-down;
 }
 
 @media only screen and (max-width: 760px) {
