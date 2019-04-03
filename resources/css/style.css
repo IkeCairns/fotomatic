@@ -392,12 +392,12 @@ header .mobile {
 }
 
 #filters-section .images-container img {
-  min-width: 0;
+  /* min-width: 0;
   object-position:0 0;
-  object-fit: contain;
+  object-fit: contain; */
   display: block;
   max-width: 100%;
-  margin-bottom: 64px;
+  /* margin-bottom: 64px; */
 }
 
 @media only screen and (max-width: 760px) {
@@ -437,7 +437,7 @@ header .mobile {
 }
 
 #quotes-section content {
-  padding: 5rem 0;
+  padding: 80px auto;
 }
 
 #quotes-section quote {
